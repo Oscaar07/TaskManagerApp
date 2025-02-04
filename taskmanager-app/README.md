@@ -1,19 +1,20 @@
 # **TaskManager**
 
 # 🏗 Tech Stack
-- Frontend: React.js or Angular
-- Backend: Node.js with Express.js or Python Flask
-- Database: MongoDB (NoSQL) or PostgreSQL/MySQL (SQL)
-- Authentication: JWT (JSON Web Token)
-- Hosting: Vercel (frontend), Render/Heroku (backend), MongoDB Atlas
+- Frontend: React + Vite, Tailwind CSS (for styling)
+- Backend: Node.js + Express.js
+- Database: MongoDB (with Mongoose) or PostgreSQL (with Prisma)
+- Authentication: Firebase Auth or JWT
+- Deployment: Vercel (Frontend) + Render (Backend)
 
 # 📜 Features
-- User Authentication (Signup, Login, Logout)
-- Task Management
-- Add, edit, delete tasks
-- Mark tasks as completed
-- User-specific tasks (Each user sees only their tasks)
-- Responsive UI (Mobile-friendly)
+- User Authentication (Login/Register using Firebase or JWT)
+- Task Management (CRUD operations: Create, Read, Update, Delete)
+- Task Filtering (Filter by status, priority, and due date)
+- Responsive UI (Styled with Tailwind CSS)
+- Backend API (REST API with Express.js)
+- Database Storage (MongoDB/PostgreSQL for persisting tasks)
+- Deployment (Frontend: Vercel, Backend: Render)
 
 # 🛠 How to Build It
 - 1️⃣ Backend (API) – Node.js + Express.js
