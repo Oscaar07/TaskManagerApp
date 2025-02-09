@@ -1,3 +1,9 @@
+body {
+  background-color: #ffffff; /* Light background color */
+  color: #000000; /* Dark text color */
+  font-family: Arial, sans-serif;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -35,6 +41,9 @@
 
 .card {
   padding: 2em;
+  background-color: #f9f9f9; /* Light background for cards */
+  border: 1px solid #ccc; /* Border for cards */
+  border-radius: 10px; /* Rounded corners for cards */
 }
 
 .read-the-docs {

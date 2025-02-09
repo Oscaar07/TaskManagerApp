@@ -3,6 +3,7 @@ import axios from "axios";
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import LoginForm from "./components/LoginForm";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -37,7 +38,7 @@ useEffect(() => {
   axios.get("http://localhost:5000/").then((res) => setMessage(res.data));
 }, []);
 
-return <h1>{message}</h1>;
+return <h1>{message} oui <LoginForm/></h1>;
  }
 
 export default App
